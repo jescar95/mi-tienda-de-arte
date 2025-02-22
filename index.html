@@ -7,63 +7,49 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            text-align: center;
             margin: 0;
             padding: 0;
-            text-align: center;
         }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-            font-size: 24px;
-        }
-        .banner {
-            background: url('banner.jpg') no-repeat center center/cover;
-            height: 300px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 32px;
-            font-weight: bold;
-        }
-        .section {
+        .container {
+            max-width: 800px;
+            margin: auto;
             padding: 20px;
         }
-        .gallery img, .imported-products img {
-            width: 200px;
+        img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
             margin: 10px;
-            border-radius: 10px;
         }
-        .contact {
+        .footer {
             background-color: #f4f4f4;
             padding: 20px;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <header>
-        Tienda de Arte e Importaciones
-    </header>
-    <div class="banner">
-        Bienvenido a nuestra tienda
-    </div>
-    <div class="section gallery">
+    <div class="container">
+        <h1>Tienda de Arte e Importaciones</h1>
+        <p>Bienvenido a nuestra tienda</p>
+        
         <h2>Galería de Arte</h2>
-        <img src="arte1.jpg" alt="Arte 1">
-        <img src="arte2.jpg" alt="Arte 2">
-        <img src="arte3.jpg" alt="Arte 3">
-    </div>
-    <div class="section imported-products">
+        <img src="img/arte1.jpg" alt="Arte 1">
+        <img src="img/arte2.jpg" alt="Arte 2">
+        <img src="img/arte3.jpg" alt="Arte 3">
+        
         <h2>Importaciones en Venta</h2>
-        <img src="producto1.jpg" alt="Producto 1">
-        <img src="producto2.jpg" alt="Producto 2">
-        <img src="producto3.jpg" alt="Producto 3">
+        <img src="img/producto1.jpg" alt="Producto 1">
+        <img src="img/producto2.jpg" alt="Producto 2">
+        <img src="img/producto3.jpg" alt="Producto 3">
     </div>
-    <div class="section contact">
+    
+    <div class="footer">
         <h2>Contacto</h2>
-        <p>Email: contacto@tuweb.com</p>
-        <p>WhatsApp: +123456789</p>
+        <p>Email: carhuapomaneirajesus@gmail.com</p>
+        <p>WhatsApp: +51976218762</p>
     </div>
 </body>
 </html>
+
